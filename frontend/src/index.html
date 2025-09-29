@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming com Web Worker</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        #status { margin: 20px 0; font-weight: bold; }
+        #results { max-height: 400px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; display: flex; flex-direction: column; gap: 20px; }
+    </style>
+</head>
+<body>
+    <!-- <h1>Consumindo API de Streaming com Web Worker</h1>
+    <p>Clique no botão para iniciar o download de 26MB de JSON. A UI permanecerá responsiva.</p> -->
+    
+    <button id="startButton">Iniciar Processamento</button>
+    
+    <div id="status">Aguardando início...</div>
+    
+    <!-- <h2>Resultados:</h2> -->
+    <ul id="results"></ul>
+    
+    <!-- Script principal -->
+    <script src="main.js"></script>
+</body>
+</html>
